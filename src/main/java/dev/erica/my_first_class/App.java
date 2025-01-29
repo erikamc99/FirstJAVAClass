@@ -1,17 +1,18 @@
 package dev.erica.my_first_class;
 
-/**
- * Hello world!
- */
+import dev.erica.my_first_class.Person.Person;
+
 public final class App {
     private App() {
     }
 
     /**
-     * Says hello to the world.
+     * 
      * @param args The arguments of the program.
      */
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Person erika = new Person("Erica", "Montesinos", 25, 12345678);
+
+        System.out.println("I'm " + erika.getName() + " " + erika.getSurname() + " and I'm " + erika.getAge() + " years old. My ID number is " + erika.getNumID());
     }
 }
