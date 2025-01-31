@@ -14,7 +14,7 @@ public class Person {
         this.numID = numID;
     }
 
-    // Getters and Setters
+    // Getters and Setters (los setters por si quisiéramos cambiar en algún momento alguno de los datos, si se van a mantener inmutables no son necesarios)
     public String getName() {
         return name;
     }
