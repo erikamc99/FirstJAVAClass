@@ -6,15 +6,13 @@ public class Person {
     public int age;
     public int numID;
 
-    // Constructor
     public Person(String name, String surname, int age, int numID) {
         this.name = name;
         this.surname = surname;
         this.age = age;
         this.numID = numID;
     }
-
-    // Getters and Setters (los setters por si quisiéramos cambiar en algún momento alguno de los datos, si se van a mantener inmutables no son necesarios)
+    
     public String getName() {
         return name;
     }
